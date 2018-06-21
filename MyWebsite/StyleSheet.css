@@ -1,0 +1,87 @@
+
+<style>
+
+  *{
+	padding:0;
+	margin:0;
+}
+
+  nav {
+	background-color:none;
+	height: 50px;
+
+}
+
+Nav ul {
+	height:50px;
+	width: 450px;
+	margin: 0 auto;
+
+}
+
+Nav ul li {
+	list-style-type: none;
+	width:130px;
+	Float: left;
+	border-right: 2px solid white;
+	text-align: right;
+}
+
+Li a {
+	text-decoration: none;
+	font-color: white;
+	line-height: 20px;
+	display: block;
+}
+
+Li a:hover {
+	background-color: black;
+	color: blue;
+}
+
+.paragraph {
+	color: white;
+	font-size: 15px;
+	Line-height: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+
+Form {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	margin-top: 20px;
+	margin: 20px auto;
+	width: 320px;
+	border: 4px solid blue;
+	padding:4px;
+}
+
+Ul , li {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+}
+
+h1 , h2, h3 {
+	font-family: 'Indie Flower', cursive;
+}
+ 
+img {
+	border-radius:16px;
+	box-shadow: 5px 5px 8px 5px rgba(40,40,40,0.6);
+	flexbox-wrap: wrap;
+	flexbox-direction: column;
+}
+
+@media (min-width: 600px) {
+  p {font-size: 1.25rem;
+   }
+}
+
+@media (min-width: 800px) {
+  P {
+	font-size: 1.5rem;
+	line-height: 1.5;
+    }
+}
+
+</style>
