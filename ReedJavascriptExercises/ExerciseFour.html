@@ -4,11 +4,27 @@
 
 //Exercise Four
 
-Var answer
-Prompt ("what time of the day is it?");
-Var answer = prompt ("what time of the day is it");
-document.write(answer);
+var time = prompt("What time of the day is it?")
+var meal1 = "morning"
+var meal2 = "noon"
+var meal3 = "evening"
 
+if (time == meal1) {
+
+    console.log("Since it is " + meal1 + ", you should be eating breakfast. We suggest eggs and toast.")
+
+}  else if (time == meal2) {
+
+    console.log("Since it is + meal2 + ", you should be eating lunch. We suggest a salad.")
+
+}  else if (time == meal3) {
+
+    console.log("Since it is + meal3 + ", you should be eating dinner. We suggest chicken and rice.")
+
+} else {
+
+    console.log("does not compute, please reload page and enter valid time of day.")
+}
 
 
 
