@@ -3,13 +3,14 @@
 <script type="text/javascript">
 
 //Exercise Three
-
-input = prompt("Would you like to print your name?", "1");
-var i = 0;
- while(i<=5) {
-  console.log("hello my name is Adam"+i+");
-  i++;
+ 
+var name = "";
+while (name == "" || name == " " || name == "null") {
+    name = prompt("Do you want to print your name?");
 }
+  console.log("Hello. My name is " + name + ".");
+
+
 
 </script>
 </body>
