@@ -56,6 +56,22 @@ Form {
 	padding:4px;
 }
 
+label {
+ 	float: left;
+	clear: left;
+	display: block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+input, textarea {
+	margin-top: 10px;
+	display: block;
+}
+
+
 Ul , li {
 	font-family: 'Roboto Slab', serif;
 	color: white;
