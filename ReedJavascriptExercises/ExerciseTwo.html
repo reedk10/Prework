@@ -2,13 +2,19 @@
 <body>
 <script type="text/javascript">
 
-//Exercise Two
-
-var answer = ["yes", "no"];
+//Exercise Two AN ATTEMPT
+  
+var words = ("cat" , "dog");
 var userInput;
 
 do{
-  userInput = prompt("Do you want to play?")
+userInput = prompt("Do you want to play?");
+prompt("enter a word");
+words=words+parseInt(userInput);
+}
+while(userInput == "no");
+
+Console.log(words);
 
 </script>
 </body>
